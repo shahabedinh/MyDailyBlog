@@ -1,4 +1,4 @@
-# Query Current System Time And Settings
+## Query Current System Time And Settings
 
 `timedatectl`: Show current settings of the system clock and RTC, including whether network time synchronization is active.  
 
