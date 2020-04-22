@@ -1,8 +1,15 @@
-## List with their InstanceId, State.Name, InstanceType, PrivateIpAddress, PrivateDnsName, PublicIpAddress, PublicDnsName
+### Use aws-cli to list instances with their IPS and their name
 
-To use aws-cli to list instances with instance-id instance
-State,Instance Type, PrivateIpAddress, PrivateDnsName,PublicIpAddress
-and PublicDnsName
+
+- To use aws-cli to list instances with their
+  - Instance ID
+  - Instance State
+  - Instance Type
+  - Instance PrivateIpAddress,
+  - Instance PrivateDnsName
+  - Instance PublicIpAddress
+  - Instance PublicDnsName
+  - Instance Name
 
 ```bash
 aws ec2 describe-instances --query 'Reservations[*].Instances[*].[Tags[?Key==`Name`].Value[],InstanceId,State.Name,InstanceType,PrivateIpAddress,PrivateDnsName,PublicIpAddress,PublicDnsName]' --output json | tr -d '\n[] "' | perl -pe 's/i-/\ni-/g' | tr ',' '\t' | sed -e 's/null/None/g' | grep '^i-' | column -t

@@ -5,3 +5,4 @@
 
 
 ## AWS
+[Listing EC2 Instances with their Ips using aws-cli](AWS/listing-instances-using-aws-cli.md)
