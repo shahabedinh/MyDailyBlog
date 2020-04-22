@@ -20,3 +20,7 @@ NTP synchronized: yes
                   Sun 2020-11-01 01:00:00 PST
 
 ```
+
+|   |
+|---|
+|   |
