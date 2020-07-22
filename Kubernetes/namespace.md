@@ -1,3 +1,6 @@
+Kubernetes supports multiple virtual clusters backed by the same physical cluster. These virtual clusters are called namespaces.
+When to Use Multiple Namespaces
+
 ### Viewing namespaces:
 You can list the current namespaces in a cluster using:
 
