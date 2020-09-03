@@ -2,7 +2,7 @@
 
 `timedatectl`: Show current settings of the system clock and RTC, including whether network time synchronization is active.  
 
-```
+```bash
 | ==> timedatectl
       Local time: Tue 2020-04-21 14:15:21 PDT
   Universal time: Tue 2020-04-21 21:15:21 UTC
@@ -21,6 +21,3 @@ NTP synchronized: yes
 
 ```
 
-|   |
-|---|
-|   |
