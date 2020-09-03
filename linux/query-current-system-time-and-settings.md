@@ -1,6 +1,7 @@
 ## Query Current System Time And Settings
 
-`timedatectl`: Show current settings of the system clock and RTC, including whether network time synchronization is active.  
+- `timedatectl`: Show current settings of the system clock and RTC,
+  - including whether network time synchronization (NTP) is active.
 
 ```bash
 | ==> timedatectl
