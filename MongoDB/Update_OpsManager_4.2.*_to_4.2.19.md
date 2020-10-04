@@ -2,7 +2,7 @@
 ## How to update Ops Manager 4.2.* to a newer 4.2 version or the latest 4.2.19
 
 ### Prerequisites
-
+- It is crucial that you back up the existing conf-mms.properties and gen.key files because the upgrade process deletes them.
 - If you have running Backup Daemons, you need to stop Backup Daemons by
     1. Log into the first host that serves a Backup Daemon.
     1. Click the Start button.
